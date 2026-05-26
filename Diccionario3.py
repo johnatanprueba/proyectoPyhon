@@ -7,4 +7,4 @@ for producto,info in productos.items():
     #info = productos[producto]
     gananciaUnitaria = info.get("precio")-info.get("costo")
     gananciaTotal = gananciaUnitaria*info.get("cantidadDisponible")
-    print("Ganacia del producto: "+producto+" es de "+str(gananciaTotal))
+    print("Ganacia del  producto: "+producto+" es de "+str(gananciaTotal))
